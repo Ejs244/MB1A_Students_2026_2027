@@ -1,0 +1,28 @@
+---
+title: "Brain Summary"
+format: html
+---
+
+We are trying to calculate the total number of genes with regionally elevated expression in the **forebrain** 
+```{r}
+sum(180, 109, 55, 83, 157, 185, 57, 31, 60, 110, 45, 98)
+```
+
+The species with the highest number of elevated genes: 
+```{r}
+sum(180, 83, 57, 110)
+```
+
+For Humans it summed to **430**
+
+```{r}
+sum(109, 157, 31, 45)
+```
+For Pigs it summed to **342**
+
+```{r}
+sum(55, 185, 60, 98)
+```
+For Mice it summed to **398**
+
+Therefore Humans had the highest number of genes with regionally levated expression.
