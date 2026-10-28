@@ -1,0 +1,15 @@
+---
+title: "Practical_1_Introduction_to_R/ukhsa_data_analysis"
+author: "Elliot Smith"
+format: html
+---
+
+```{r}
+sqrt(9)
+round(3.1443574398573987, digits=2)
+```
+
+```{r}
+print(rep(x=5, times=7))
+```
+

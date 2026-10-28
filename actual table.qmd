@@ -1,0 +1,15 @@
+---
+title: "actual table"
+format: html
+---
+```{r}
+my_data_frame <- tibble(
+  fruit = c("apple", "pear", "banana"),
+  length = c(22, 30, 55),
+  weight = c(150, 165, 170)
+)
+
+
+print(my_data_frame)
+```
+
